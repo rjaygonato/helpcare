@@ -5,7 +5,7 @@
 <head>
   <title>HelpCare On-Demand Personal and Household Services</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Google Font: Source Sans Pro -->
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
@@ -129,8 +129,6 @@
         </div>
       </div>
     </div>
-
-    <?php include "footer.php" ?>
 
   </div> <!-- end of site wrap -->
 

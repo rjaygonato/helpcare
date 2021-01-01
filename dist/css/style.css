@@ -255,7 +255,7 @@ a {
       font-size: 26px;
       color: #000; }
     .site-navbar .site-logo img {
-      width: auto;
+      width: 400px;
       height: 45px;
     }
   .site-navbar .site-navigation .site-menu {
@@ -809,7 +809,6 @@ a {
       background: #28a745; }
 
 .unit-5 {
-  padding-top: 50px;
   padding-bottom: 50px;
   background: linear-gradient(to bottom, #080e3e, #0a144f, #0d1960, #111e73, #162385)!important;
  }
@@ -1233,4 +1232,78 @@ a {
 
   h5.reg-title-bot {
     padding-top: 20px!important;
+  }
+
+  .c_login {
+    padding-top: 50px;
+    margin-bottom: 25px!important;
+    box-shadow: none;
+  }
+
+  .c_login img {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    
+  }
+
+  .c-login-form {
+    margin-top: 0!important;
+  }
+  
+  span.site-logo img {
+    width: 250px;
+    height: auto;
+    align-content: center ;
+    padding: 10px 0;
+  }
+
+  span.site-logo a {
+    display: block;
+  }
+
+  .container span {
+    text-align: center;
+  }
+
+  .social-auth-links {
+   margin:0!important;
+  }
+
+  .social-auth-links p {
+    font-size: 0.8em;
+    position: relative;
+    bottom: -25px;
+    left:90px;
+    background-color: white;
+    width: 130px;
+    
+  }
+
+  .social-auth-links span {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 22px;
+    display: block;
+  }
+
+  a.btn-partner {
+    color: #E63946;
+    padding: 10px 0;
+    border: 1px solid #E63946;
+    display: block;
+  }
+
+  a.btn-partner img {
+    margin-right: 10px;
+  position: relative;
+  top: -3px;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+
+  .c_login_para {
+    text-align: center;
+
   }

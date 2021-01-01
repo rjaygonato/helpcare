@@ -1,11 +1,10 @@
 <?php include 'includes/session.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>HelpCare On-Demand Personal and Household Services</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Helpcare | Login</title>
 
   <!-- Google Font: Source Sans Pro -->
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
@@ -15,124 +14,113 @@
   <link rel="stylesheet" href="./plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="./dist/css/adminlte.min.css">
-  <!-- Client style -->
+  <!-- Extra style -->
   <link rel="stylesheet" href="./dist/css/style.css">
 
-  <link rel="stylesheet" href="css/animate.css">
 </head>
-<body>
-
-<div class="site-wrap">
-
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
-
-    <?php include "nav.php"?> 
-
-    <div class="site-blocks-cover user_hero">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12" data-aos="fade">
-            <h1>On demand personal and households <br>
-            same-day delivery services in Ormoc City.</h1>
-
-          <!--  <ul class="service_catg">
-            <li>Salon At Home</li>
-            <li>Plumbing</li>
-            <li>Electrical</li>
-            <li>Carpentry</li>
-          </ul> -->
-
-            <div class="row hero_row">
-                <!-- insert services category -->
-                
-           </div>
-
-          </div>
-        </div>
-      </div>
+<body class="hold-transition login-page c-login-form">
+<div class="container-fluid align-items-center">
+    <div class="row c_login">
+      <img src="./images/logo_b.png" class="rounded mx-auto d-block" alt="Welcome to HelpCare">
     </div>
 
-    <div class="site-section">
-      <div class="container hw_con">
-        <h2>How HelpCare Works</h2>
-        <div class="row">
-            <div class="col-sm hw_col">
-              <img src="images/num_1.jpg">
-              <h5>Select service</h5>
-              <p>Salon at home, plumbing,<br> electrical or carpentry</p>
-            </div>
-
-            <div class="col-sm hw_col">
-              <img src="images/num_2.jpg">
-              <h5>Select date and time</h5>
-              <p>View real-time availability<br> of our service pro</p>
-            </div>
-
-            <div class="col-sm hw_col">
-              <img src="images/num_3.jpg">
-              <h5>Book appointment</h5>
-              <p>Easy manage booking,<br> write reviews and rating</p>
-            </div>
-
-            <div class="col-sm hw_col">
-              <img src="images/num_4.jpg">
-              <h5>Time to relax</h5>
-              <p>We'll be at your service</p>
-            </div>
-          </div>
-        </div>
-    </div> <!--end site section -->
-    
-    <div class="site-section user_satisfaction">
-      <div class="container">
-
-        <h3>Your Satisfaction Is Guaranteed!</h3>
-        <p>We deliver as promised and want you to be happy with your booking.</p>
-
-        <div class="row">
-
-              <div class="col-sm col-guarantee">
-                  <img src="images/icon_servicepro.png">
-                  <h6>Verified Service Pro</h6>
-                  <p>All our service providers are screened, background verified and rated by
-                    <br>customers like you. </p>
-              </div>
-
-              <div class="col-sm col-guarantee">
-                  <img src="images/icon_insurework.png">
-                  <h6>Insured Work</h6>
-                  <p>In the rare event of a damage, every<br> booking on the HelpCare platform is<br> Insured by up to PHP 10,000/-.</p>
-              </div>
-
-              <div class="col-sm col-guarantee">
-                  <img src="images/icon_rework.png">
-                  <h6>Re-work Assurance</h6>
-                  <p>We strives to offer top quality services for you and your home every time. If you're not satisfied with the quality of the service, we'll get a rework done to your satisfaction at no extra charge.</p>
-              </div>
-
-        </div>
-      </div>
+    <div class="row c_login_para mx-auto d-block">
+    <h4>Welcome to HelpCare</h4>
+    <p>On demand personal and households <br> same-day delivery services in Ormoc City.</p>
     </div>
-
-    <?php include "footer.php"?>
-
 </div>
 
-<!-- Login Modal --->
-<?php include "login-popup.php"?>
+<div class="login-box">
+<?php
+      if(isset($_SESSION['error'])){
+        echo "
+          <div class='callout callout-danger text-center'>
+            <p>".$_SESSION['error']."</p> 
+          </div>
+        ";
+        unset($_SESSION['error']);
+      }
+      if(isset($_SESSION['success'])){
+        echo "
+          <div class='callout callout-success text-center'>
+            <p>".$_SESSION['success']."</p> 
+          </div>
+        ";
+        unset($_SESSION['success']);
+      }
+    ?>
+  <!-- /.login-logo -->
+ 
+  <div class="card card-outline card-primary">
+    <div class="card-body">
+      <p class="login-box-msg font-weight-bold text-dark">Login to your account</p>
+
+      <form action="verify.php" method="post">
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" name="email" placeholder="Enter your email address">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-envelope"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" name="password" value="password" placeholder="Password">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="icheck-primary">
+              <input type="checkbox" id="remember">
+              <label for="remember">
+                Show password
+              </label>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col-4">
+            <button type="submit" name="login" class="btn btn-primary btn-block">Log In</button>
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+      <div class="social-auth-links text-center mt-2 mb-3">
+        <span><p>Not yet a member?</p></span>
+        <a href="./user_register.php" class="btn btn-block btn-default">
+          Create New Account
+        </a> 
+      </div>
+
+      
+
+      <div class="social-auth-links text-center mt-2 mb-3">
+      <span><p>Planning to Join Us?</p></span>
+        <a href="./pro_register.php" class="btn btn-block btn-partner">
+          <img src="images/icon_servicepro_btn.png">Become Our Partner
+        </a> 
+      </div>
+
+
+
+    </div>
+    <!-- /.card-body -->
+  </div>
+  <!-- /.card -->
+</div>
+<div class="footer">
+        2021 &copy; HelpCare STI Collage Thesis Web App Sofware
+</div>
+<!-- /.login-box -->
 
 <!-- jQuery -->
-<script src="./plugins/jquery/jquery.min.js"></script>
+<script src="./../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="./plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="./dist/js/adminlte.min.js"></script>
+<script src="./../dist/js/adminlte.min.js"></script>
 </body>
 </html>
