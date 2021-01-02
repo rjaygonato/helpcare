@@ -1345,3 +1345,35 @@ a {
     font-weight: bold;
     text-transform: uppercase;
   }
+
+  .sub-cat-img {
+    padding: 0!important;
+    height: 80px;
+    display: inline-block;
+  }
+
+  .sub-cat-title{
+    margin:0;
+    padding-top: 17px;
+    padding-left: 25px;
+  }
+
+  .sub-cat-title h4, .sub-cat-title p {
+    margin:0;
+  }
+
+  .box-adjust {
+    margin:0;
+    padding: 20px;
+  }
+
+  .box-adjust p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+  }
+
+  .dash-wrap h5 {
+    margin-bottom: 20px!important;
+  
+  }
