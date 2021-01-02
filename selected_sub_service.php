@@ -38,7 +38,10 @@
       </li>
        <!-- Start breadcrumbs -->
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="home.php" class="nav-link">Home</a>
+        <a href="home.php" class="nav-link">Home /</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="sub_category.php" class="nav-link">Salont At Home</a>
       </li>
     </ul>
     <!-- Right navbar links -->
@@ -59,73 +62,61 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper dash-wrap">
     <!-- Content Header (Page header) -->
-    <div class="row header-wrap">
-        <div class="col-sm-1 sub-cat-img">
-        <img src="images/icon_Salon_at_Home.svg" style="width: 80px; height: 80px;">
-        </div>
-        <div class="col-sm-9 sub-cat-title">
-            <h4>Salon At Home</h4>
-            <p>Select specific services in Ormoc City.</p>
-        </div>
+    <div class="header-wrap">
+            <h4>Manicure and Pedicure</h4>
+            <p>Approximate time: 50 to 60 mins</p>
     </div>
-    <!-- List of sub category services -->
-    <h5>Manicure and Pedicure</h5>
+
+    <div class="row card service_details">
+            <h5>Service details</h5>
+            <p>Keep your hands and feet looking clean and healthy. A regular mini-pedi helps
+             strength your nails and leaves you with smoother skin.
+             </p>
+             <h5>About the service pro</h5>
+             <p>Our nail technicians are all highly trained professionals and are the top rated technicians in the city.</p>
+    </div>
+
+    <!-- List of service providers -->
+    <h5>HelpCare Expert</h5>
     <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
             <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-               <a href="selected_sub_service.php"><img src="images/subcategory/manicure_and_pedicure.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Manicure and Pedicure</p></a>
+                <a href="#"><img src="images/profile_pic/person_5.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
+                <p>Mae A.</p></a>
+                <p>Ratings: 4 out of 5</p>
+                <p>Job Completed: 44</p>
+                <p>Rate: Php 120</p>
+                <a class="cta-service-pro" href="#">Book Now</a>
             </div>
         </div>
 
         <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
             <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-            <a href="#"><img src="images/subcategory/manicure.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Manicure</p></a>
+                <a href="#"><img src="images/profile_pic/person_7.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
+                <p>Grace A.</p></a>
+                <p>Ratings: 2 out of 5</p>
+                <p>Job Completed: 11</p>
+                <p>Rate: Php 130</p>
+                <a class="cta-service-pro" href="#">Book Now</a>
+            </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
+            <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
+                <a href="#"><img src="images/profile_pic/person_6.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
+                <p>Vio B.</p></a>
+                <p>Ratings: 1 out of 5</p>
+                <p>Job Completed: 5</p>
+                <p>Rate: Php 110</p>
+                <a class="cta-service-pro" href="#">Book Now</a>
             </div>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
-            <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-            <a href="#"><img src="images/subcategory/pedicure.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Pedicure</p></a>
-            </div>
-        </div>
+
+
     </div>
     
-    <h5>Hair Done</h5>
-
-    <div class="row">
-       
-
-        <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
-            <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-            <a href="#"><img src="images/subcategory/male_haircut.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Male Haircut</p></a>
-            </div>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
-            <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-            <a href="#"><img src="images/subcategory/female_haircut.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Female Haircut</p></a>
-            </div>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
-            <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-            <a href="#"><img src="images/subcategory/hair_color.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Hair Color</p></a>
-            </div>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
-            <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-            <a href="#"><img src="images/subcategory/child_haircut.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Child Haircut</p></a>
-            </div>
-        </div>
-    </div>
+    
    
 
 

@@ -1375,5 +1375,23 @@ a {
 
   .dash-wrap h5 {
     margin-bottom: 20px!important;
-  
+  }
+
+  .service_details {
+    padding: 20px;
+  }
+
+  .service_details h5, .service_details p {
+    margin-bottom: 10px!important;
+  }
+
+  a.cta-service-pro {
+    color: #635600;
+    background-color: #FCDB02;
+    padding: 20px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #DCBF00;
+    margin-top: 20px;
   }
