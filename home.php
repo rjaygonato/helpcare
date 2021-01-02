@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="./dist/css/adminlte.min.css">
+  <!-- Client style -->
+  <link rel="stylesheet" href="./dist/css/style.css">
 </head>
 <!--
 `body` tag options:
@@ -35,9 +37,8 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">User</a>
+        <a href="index3.html" class="nav-link">Welcome, User!</a>
       </li>
-    
     </ul>
 
     
@@ -55,10 +56,10 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <aside class="main-sidebar sidebar-dark-primary elevation-4 sidebar-blue">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
-      <img src="../images/logo.png" alt="Helpcare Logo" style="width: 230px;" >
+      <img src="images/logo.png" alt="Helpcare Logo" style="width: 230px;" >
        <span class="brand-text font-weight-light"></span>
     </a>
 
@@ -83,36 +84,36 @@
                with font-awesome or any other icon font library -->
           <li class="nav-header">Menu</li>
           <li class="nav-item">
-            <a href="" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
+            <a href="home.php" class="nav-link">
+              <i class="nav-icon fas fa-home"></i>
               <p>
-                Dashboard
+                Home
               </p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-users"></i>
-              <p>Users</p>
+            <i class="nav-icon fas fa-book"></i>
+              <p>My Bookings</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-copy"></i>
-              <p>Category</p>
+            <i class="nav-icon fas fa-user"></i>
+              <p>My Profile</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
             <i class="nav-icon fas fa-people-arrows"></i>
-              <p>Providers</p>
+              <p>Terms and Condition</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-            <i class="nav-icon far fa-newspaper"></i>
-              <p>Services</p>
+            <i class="nav-icon fas fa-history"></i>
+              <p>Service History</p>
             </a>
           </li>
           <li class="nav-item">
@@ -129,9 +130,23 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <div class="content-wrapper dash-wrap">
     <!-- Content Header (Page header) -->
-    
+     <div class="header-wrap">
+      <h5>Choose Available Services</h5>
+      <p>List of on demand services in Ormoc City.</p>
+    </div>
+   <!-- List of services -->
+    <div class="container-fluid service-con">
+
+      <ul class="row service-list">
+          <li class="col-sm-6 col-md-4 col-lg-3 mb-5"><a href="#"><img src="images/icon_Salon_at_Home.svg"><p>Salon At Home</p></a></li>
+          <li class="col-sm-6 col-md-4 col-lg-3 mb-5"><a href="#"><img src="images/icon_carpentry.svg"><p>Carpentry</p></a></li>
+          <li class="col-sm-6 col-md-4 col-lg-3 mb-5"><a href="#"><img src="images/icon_plumbling.svg"><p>Plumbling</p></a></li>
+          <li class="col-sm-6 col-md-4 col-lg-3 mb-5"><a href="#"><img src="images/icon_electrical.svg"><p>Electrical</p></a></li>
+      </ul>
+
+    </div>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -144,10 +159,10 @@
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2020 <a href="#">Helpcare CPanel</a>.</strong>
+    <strong>Copyright &copy; 2021 Helpcare STI Thesis Web App.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 1
+     
     </div>
   </footer>
 </div>

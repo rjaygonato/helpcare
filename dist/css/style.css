@@ -1305,5 +1305,43 @@ a {
 
   .c_login_para {
     text-align: center;
+  }
 
+  .sidebar-blue {
+    background-color: #070D3D!important;
+  }
+
+  .nav-icon {
+    color: white!important;
+  }
+
+  .header-wrap {
+   margin-bottom: 20px; 
+  }
+
+  .dash-wrap {
+    background-color: #F5F5F5;
+    padding: 40px 37px 0 37px;
+  }
+
+  .service-con {
+    margin:0;
+    padding:0;
+    text-align: center;
+  }
+
+  .service-list {
+    padding: 0!important;
+    list-style-type: none;
+    margin:0!important;
+  }
+
+  .service-list li img {
+    align-content: center;
+  }
+
+  .service-list li a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
   }
