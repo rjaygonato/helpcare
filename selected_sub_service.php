@@ -77,12 +77,13 @@
     </div>
 
     <!-- List of service providers -->
-    <h5>HelpCare Expert</h5>
+    <h5>Our HelpCare Expert</h5>
     <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
             <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-                <a href="#"><img src="images/profile_pic/person_5.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
+                <a href="booking_pro_profile.php"><img src="images/profile_pic/person_5.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
                 <p>Mae A.</p></a>
+                <p>Brgy Linao, Ormoc City</p>
                 <p>Ratings: 4 out of 5</p>
                 <p>Job Completed: 44</p>
                 <p>Rate: Php 120</p>
@@ -94,6 +95,7 @@
             <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
                 <a href="#"><img src="images/profile_pic/person_7.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
                 <p>Grace A.</p></a>
+                <p>Brgy Ipil, Ormoc City</p>
                 <p>Ratings: 2 out of 5</p>
                 <p>Job Completed: 11</p>
                 <p>Rate: Php 130</p>
@@ -105,6 +107,7 @@
             <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
                 <a href="#"><img src="images/profile_pic/person_6.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
                 <p>Vio B.</p></a>
+                <p>Dist. 32, Ormoc City</p>
                 <p>Ratings: 1 out of 5</p>
                 <p>Job Completed: 5</p>
                 <p>Rate: Php 110</p>

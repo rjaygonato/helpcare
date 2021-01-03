@@ -548,9 +548,7 @@ a {
 
   }
 
-  .site-block-cover .user_hero {
 
-  }
   .site-blocks-cover.overlay {
     position: relative; }
     .site-blocks-cover.overlay:before {
@@ -671,8 +669,7 @@ a {
     transform: scale(1.05); }
     .feature-item:hover .icon {
       color: #fff !important; }
-    .feature-item:hover h2 {
-      }
+    
     .feature-item:hover .counting {
       background: #23923d;
       color: #fff; }
@@ -1013,10 +1010,6 @@ a {
     background-color:#F2F2F2!important;
   }
 
-  .site-blocks-cover {
-
-
-  }
 
   .site-blocks-cover h1 {
     font-size: 36px;
@@ -1119,7 +1112,7 @@ a {
   }
 
   .con-footer a:hover {
-    color:black!important
+    color:black!important;
     text-decoration: underline!important;
   }
 
@@ -1321,7 +1314,7 @@ a {
 
   .dash-wrap {
     background-color: #F5F5F5;
-    padding: 40px 37px 0 37px;
+    padding: 24px;
   }
 
   .service-con {
@@ -1381,10 +1374,7 @@ a {
     padding: 20px;
   }
 
-  .service_details h5, .service_details p {
-    margin-bottom: 10px!important;
-  }
-
+  
   a.cta-service-pro {
     color: #635600;
     background-color: #FCDB02;
@@ -1394,4 +1384,8 @@ a {
     font-weight: bold;
     border: 1px solid #DCBF00;
     margin-top: 20px;
+  }
+
+  .bpp_card {
+    margin:0!important;
   }

@@ -66,7 +66,7 @@
     <div class="container-fluid service-con">
 
       <ul class="row service-list">
-          <li class="col-sm-6 col-md-4 col-lg-3 mb-5"><a href="sub_category.php"><img src="images/icon_Salon_at_Home.svg"><p>Salon At Home</p></a></li>
+          <li class="col-sm-6 col-md-4 col-lg-3 mb-5"><a href="sub_category.php"><img src="images/icon_Salon_at_Home.svg" class="mx-auto d-block"><p>Salon At Home</p></a></li>
           <li class="col-sm-6 col-md-4 col-lg-3 mb-5"><a href="#"><img src="images/icon_carpentry.svg"><p>Carpentry</p></a></li>
           <li class="col-sm-6 col-md-4 col-lg-3 mb-5"><a href="#"><img src="images/icon_plumbling.svg"><p>Plumbling</p></a></li>
           <li class="col-sm-6 col-md-4 col-lg-3 mb-5"><a href="#"><img src="images/icon_electrical.svg"><p>Electrical</p></a></li>
