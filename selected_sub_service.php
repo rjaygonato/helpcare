@@ -67,50 +67,69 @@
             <p>Approximate time: 50 to 60 mins</p>
     </div>
 
-    <div class="row card service_details">
+    <div class="row small-box shadow-sm bg-white text-left service_details">
             <h5>Service details</h5>
-            <p>Keep your hands and feet looking clean and healthy. A regular mini-pedi helps
+            <p style="font-size: 1rem;">Keep your hands and feet looking clean and healthy. A regular mini-pedi helps
              strength your nails and leaves you with smoother skin.
              </p>
              <h5>About the service pro</h5>
-             <p>Our nail technicians are all highly trained professionals and are the top rated technicians in the city.</p>
+             <p style="font-size: 1rem;">Our nail technicians are all highly trained professionals and are the top rated technicians in the city.</p>
     </div>
 
     <!-- List of service providers -->
     <h5>Our HelpCare Expert</h5>
     <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
-            <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-                <a href="booking_pro_profile.php"><img src="images/profile_pic/person_5.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Mae A.</p></a>
-                <p>Brgy Linao, Ormoc City</p>
-                <p>Ratings: 4 out of 5</p>
-                <p>Job Completed: 44</p>
-                <p>Rate: Php 120</p>
+        <div class="card col-sm-6 col-md-4 col-lg-3 mb-5 mr-2 p-0">
+            <div class="card-body text-center box-adjust text-dark">
+                <a href="booking_pro_profile.php"><img src="images/profile_pic/person_5.jpg" class="img-fluid responsive-img rounded-circle mb-2" style="width:200px;height:200px;">
+                <h4>Mae A.</h4></a>
+                <p><i class="fas fa-home pr-2"></i>Brgy Linao, Ormoc City</p>
+                <p>Ratings:<br><span class="customerReviewStar text-center">
+                <i class="fas fa-star text-danger"></i>
+                <i class="fas fa-star text-danger"></i>
+                <i class="fas fa-star text-danger"></i>
+                <i class="fas fa-star-half-alt text-danger"></i>
+                <i class="far fa-star text-danger"></i>
+                </span>
+               </p>
+                <p>Job Completed: <br>44</p>
+                <p>Rate:<br><span class="serviceProrate">₱120</span></p>
                 <a class="cta-service-pro" href="#">Book Now</a>
             </div>
         </div>
 
-        <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
-            <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-                <a href="#"><img src="images/profile_pic/person_7.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Grace A.</p></a>
-                <p>Brgy Ipil, Ormoc City</p>
-                <p>Ratings: 2 out of 5</p>
-                <p>Job Completed: 11</p>
-                <p>Rate: Php 130</p>
+        <div class="card col-sm-6 col-md-4 col-lg-3 mb-5 mr-2 p-0">
+            <div class="card-body text-center box-adjust text-dark">
+                <a href="booking_pro_profile.php"><img src="images/profile_pic/person_7.jpg" class="img-fluid responsive-img rounded-circle mb-2" style="width:200px;height:200px;">
+                <h4>Grace A.</h4></a>
+                <p><i class="fas fa-home pr-2"></i>Brgy Ipil, Ormoc City</p>
+                <p>Ratings:<br><span class="customerReviewStar text-center">
+                <i class="fas fa-star text-danger"></i>
+                <i class="fas fa-star text-danger"></i>
+                <i class="fas fa-star text-danger"></i>
+                <i class="fas fa-star-half-alt text-danger"></i>
+                <i class="far fa-star text-danger"></i>
+                </span>
+                <p>Job Completed: <br>11</p>
+                <p>Rate:<br><span class="serviceProrate">₱130</span></p>
                 <a class="cta-service-pro" href="#">Book Now</a>
             </div>
         </div>
         
-        <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
-            <div class="small-box shadow-sm bg-white rounded text-center box-adjust">
-                <a href="#"><img src="images/profile_pic/person_6.jpg" class="img-fluid responsive-img rounded-circle" style="width:200px;height:160px;">
-                <p>Vio B.</p></a>
-                <p>Dist. 32, Ormoc City</p>
-                <p>Ratings: 1 out of 5</p>
-                <p>Job Completed: 5</p>
-                <p>Rate: Php 110</p>
+        <div class="card col-sm-6 col-md-4 col-lg-3 mb-5 mr-2 p-0">
+            <div class="card-body text-center box-adjust text-dark">
+                <a href="booking_pro_profile.php"><img src="images/profile_pic/person_6.jpg" class="img-fluid responsive-img rounded-circle mb-2" style="width:200px;height:200px;">
+                <h4>Vio B.</h4></a>
+                <p><i class="fas fa-home pr-2"></i>Dist. 32, Ormoc City</p>
+                <p>Ratings:<br><span class="customerReviewStar text-center">
+                <i class="fas fa-star text-danger"></i>
+                <i class="fas fa-star text-danger"></i>
+                <i class="far fa-star text-danger"></i>
+                <i class="far fa-star text-danger"></i>
+                <i class="far fa-star text-danger"></i>
+                </span>
+                <p>Job Completed: <br>5</p>
+                <p>Rate:<br><span class="serviceProrate">₱90</span></p>
                 <a class="cta-service-pro" href="#">Book Now</a>
             </div>
         </div>

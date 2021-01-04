@@ -1389,3 +1389,8 @@ a {
   .bpp_card {
     margin:0!important;
   }
+
+  span.serviceProrate {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }

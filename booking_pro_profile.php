@@ -69,7 +69,7 @@
         <div class="container-fluid card bpp_card">
             <div class="row service_details">
                 <div class="col-sm-3 booking-prof-img">
-                        <img src="images/profile_pic/person_5.jpg" class="img-fluid responsive-img rounded-circle mx-auto d-block" style="width:300px;height:160px;">
+                        <img src="images/profile_pic/person_5.jpg" class="img-fluid responsive-img rounded-circle mx-auto d-block" style="width:200px;height:200px;">
                 </div>
                 <div class="col-sm sub-cat-title">
                     <h4 class="mb-1">Mae Abrencio</h4>
@@ -82,7 +82,7 @@
                             <p class="text-uppercase">Overall Rating</p>
                         </div>
                         <div class="col-sm mb-3">
-                            <h4><i class="fas fa-calendar-check pr-2"></i>44</h4>
+                            <h4><i class="fas fa-calendar-check pr-2 text-green"></i>44</h4>
                             <p class="text-uppercase">Job Completed</p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                     </div>
 
                     <!-- CTA -->
-                    <a class="col cta-service-pro text-center" href="#">Book Now</a>  
+                    <a class="col cta-service-pro text-center" href="booking_pro_form.php">Book Now</a>  
                 </div>
             
             </div>
@@ -104,10 +104,10 @@
         <!-- List of customer reviews and rating -->
         <div class="container-fluid card mb-4">
 
-            <div class="row">
+            <div class="row card-body">
                 
-                <div class="col-sm">
-                <blockquote class="border-0"> 
+                <div class="col-sm p-0">
+                <blockquote class="border-0 p-0"> 
                 <p>"excellent work by the beautician.. thanks"</p>
                 <footer class="blockquote-footer"><span class="customerName">From Susan B.</span>
                 </footer>
@@ -121,8 +121,8 @@
                 </blockquote>
                 </div>
 
-                <div class="col-sm">
-                <blockquote class="border-0"> 
+                <div class="col-sm p-0">
+                <blockquote class="border-0 p-0"> 
                 <p>"I had an amazing experience :) she was very professional and caring thank you Mae!"</p>
                 <footer class="blockquote-footer"><span class="customerName">From Sarah T.</span>
                 </footer>
@@ -136,8 +136,8 @@
                 </blockquote>
                 </div>
                 
-                <div class="col-sm">
-                <blockquote class="border-0"> 
+                <div class="col-sm p-0">
+                <blockquote class="border-0 p-0"> 
                 <p>"Awesome, always preferred mae. One of the best service provider. !"</p>
                 <footer class="blockquote-footer"><span class="customerName">From Jean S.</span>
                 </footer>
@@ -151,8 +151,8 @@
                 </blockquote>
                 </div>
 
-                <div class="col-sm">
-                <blockquote class="border-0"> 
+                <div class="col-sm p-0">
+                <blockquote class="border-0 p-0"> 
                 <p>"Would like to avail more services"</p>
                 <footer class="blockquote-footer"><span class="customerName">From Erika B.</span>
                 </footer>
