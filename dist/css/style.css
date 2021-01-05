@@ -1395,4 +1395,17 @@ a {
     font-weight: bold;
   }
   
- 
+  p.book-label {
+    color: #9A9A9A!important;
+    font-weight:500;
+  }
+
+  p.book-input {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .card-body .book-label {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }

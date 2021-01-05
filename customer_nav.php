@@ -33,7 +33,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="customer_bookings.php" class="nav-link">
             <i class="nav-icon fas fa-book"></i>
               <p>My Bookings</p>
             </a>
