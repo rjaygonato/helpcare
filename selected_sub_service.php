@@ -94,7 +94,7 @@
                </p>
                 <p>Job Completed: <br>44</p>
                 <p>Rate:<br><span class="serviceProrate">₱120</span></p>
-                <a class="cta-service-pro" href="#">Book Now</a>
+                <a href="#" class="cta-service-pro" data-toggle="modal" data-target="#addBooking">Book Now</a>
             </div>
         </div>
 
@@ -112,7 +112,7 @@
                 </span>
                 <p>Job Completed: <br>11</p>
                 <p>Rate:<br><span class="serviceProrate">₱130</span></p>
-                <a class="cta-service-pro" href="#">Book Now</a>
+                <a href="#" class="cta-service-pro" data-toggle="modal" data-target="#addBooking">Book Now</a>
             </div>
         </div>
         
@@ -130,17 +130,13 @@
                 </span>
                 <p>Job Completed: <br>5</p>
                 <p>Rate:<br><span class="serviceProrate">₱90</span></p>
-                <a class="cta-service-pro" href="#">Book Now</a>
+                <a href="#" class="cta-service-pro" data-toggle="modal" data-target="#addBooking">Book Now</a>
             </div>
         </div>
 
 
 
     </div>
-    
-    
-   
-
 
     <!-- /.content -->
   </div>
@@ -154,23 +150,19 @@
 
   <!-- Main Footer -->
   <?php include 'footer.php'; ?>
+  <!-- User Booking Modal -->
+  <?php include 'includes/user_modal.php'; ?>
 </div>
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
-
+<!-- Modal Script -->
+<?php include 'includes/scripts.php'; ?>
 <!-- jQuery -->
 <script src="./plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->
 <script src="./plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE -->
 <script src="./dist/js/adminlte.js"></script>
-
-<!-- OPTIONAL SCRIPTS -->
-<script src="./plugins/chart.js/Chart.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="./dist/js/demo.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="./dist/js/pages/dashboard3.js"></script>
 </body>
 </html>

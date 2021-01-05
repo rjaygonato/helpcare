@@ -59,7 +59,7 @@
   <div class="content-wrapper dash-wrap">
     <!-- Content Header (Page header) -->
      <div class="header-wrap">
-      <h5>Choose Available Services</h5>
+      <h5>Choose Services</h5>
       <p>List of on demand services in Ormoc City.</p>
     </div>
    <!-- List of services -->

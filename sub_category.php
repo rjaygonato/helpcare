@@ -60,16 +60,14 @@
   <div class="content-wrapper dash-wrap">
     <!-- Content Header (Page header) -->
     <div class="row header-wrap">
-        <div class="col-sm-1 sub-cat-img">
         <img src="images/icon_Salon_at_Home.svg" style="width: 80px; height: 80px;">
-        </div>
-        <div class="col-sm-9 sub-cat-title">
+        <div class="col with-auto sub-cat-title">
             <h4>Salon At Home</h4>
             <p>Select specific services in Ormoc City.</p>
         </div>
     </div>
     <!-- List of sub category services -->
-    <h5>Manicure and Pedicure</h5>
+    <h5 class="mb-3">Manicure and Pedicure</h5>
     <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
             <div class="small-box shadow-sm bg-white rounded text-center box-adjust">

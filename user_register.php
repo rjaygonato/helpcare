@@ -90,7 +90,7 @@
                 </div>
               </div>
 
-			 <div class="row form-group">
+		      	 <div class="row form-group">
                 <div class="col-md-6">
                   <label for="address">Current Ormoc City Location (Delivery Address) *</label>
                   <input type="text" name="address" id="address" class="form-control" placeholder="Street Address">

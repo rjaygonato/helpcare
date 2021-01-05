@@ -1367,7 +1367,7 @@ a {
   }
 
   .dash-wrap h5 {
-    margin-bottom: 20px!important;
+    margin-bottom: 10px!important;
   }
 
   .service_details {
@@ -1394,3 +1394,5 @@ a {
     font-size: 1.6rem;
     font-weight: bold;
   }
+  
+ 

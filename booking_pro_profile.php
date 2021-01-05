@@ -93,7 +93,7 @@
                     </div>
 
                     <!-- CTA -->
-                    <a class="col cta-service-pro text-center" href="booking_pro_form.php">Book Now</a>  
+                    <a href="#" data-toggle="modal" data-target="#addBooking" class="col cta-service-pro text-center">Book Now</a>  
                 </div>
             
             </div>
@@ -168,17 +168,8 @@
 
 
             </div>
-
         </div>
-
-
-
-    </div>
-    
-    
-   
-
-
+    </div> 
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -191,11 +182,17 @@
 
   <!-- Main Footer -->
   <?php include 'footer.php'; ?>
+
+  <!-- User Booking Modal -->
+  <?php include 'includes/user_modal.php'; ?>
+  
 </div>
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
 
+<!-- Modal Script -->
+<?php include 'includes/scripts.php'; ?>
 <!-- jQuery -->
 <script src="./plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->
@@ -203,11 +200,5 @@
 <!-- AdminLTE -->
 <script src="./dist/js/adminlte.js"></script>
 
-<!-- OPTIONAL SCRIPTS -->
-<script src="./plugins/chart.js/Chart.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="./dist/js/demo.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="./dist/js/pages/dashboard3.js"></script>
 </body>
 </html>
