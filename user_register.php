@@ -99,11 +99,11 @@
               <div class="row form-group">
                 <div class="col-md-6">
                   <label for="password">Age</label>
-                  <input type="password" id="" name="age" class="form-control" placeholder="" required>
+                  <input type="number" id="" name="age" class="form-control" placeholder="" required>
                 </div>
                 <div class="col-md-6">
                   <label for="c_password">Username</label>
-                  <input type="password" id="" name="email" class="form-control" placeholder="" required>
+                  <input type="text" id="" name="email" class="form-control" placeholder="" required>
                 </div>
               </div> 
 
