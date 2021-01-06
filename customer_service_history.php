@@ -53,91 +53,24 @@
   <div class="content-wrapper dash-wrap bg-white">
     <!-- Content Header (Page header) -->
      <div class="header-wrap">
-      <h5>My Bookings</h5>
+      <h5>My Service History</h5>
     </div>
 
      <!-- Nav tabs -->
     <ul class="nav nav-tabs nav-justified text-uppercase mb-4" id="myTab">
         <li class="nav-item">
-            <a href="#today" class="nav-link active" data-toggle="tab">Today</a>
+            <a href="#today" class="nav-link active" data-toggle="tab">This Month</a>
         </li>
         <li class="nav-item">
-            <a href="#upcoming" class="nav-link" data-toggle="tab">UpComing</a>
+            <a href="#upcoming" class="nav-link" data-toggle="tab">Past Month</a>
         </li>
-        <li class="nav-item">
-            <a href="#cancelled" class="nav-link" data-toggle="tab">Cancelled</a>
-        </li>
+       
     </ul>
     <div class="tab-content">
         <div class="tab-pane container fade show active" id="today">
+                        
                  
-                <!-- Fetch booking data 1 -->
-                 <div class="card col-sm bg-light p-0 shadow-none">
-                     <div class="card-body">
-                             <p class="book-label">Invoice ID</p>
-                             <p class="book-input">0002312</p>
-
-                             <p class="book-label">Service Provider Name</p>
-                             <p class="book-input">Mae Abrencio</p>
-
-                             <p class="book-label">Service Type</p>
-                             <p class="book-input">Manicure and Pedicure</p>
-
-                             <p class="book-label">Charged Rate</p>
-                             <p class="book-input">Php 120</p>
-
-                             <p class="book-label">Date</p>
-                             <p class="book-input">January 7, 2020</p>
-
-                             <p class="book-label">Time of Arrival</p>
-                             <p class="book-input">10:00 AM</p>
-
-                             <p class="book-label">Service Address</p>
-                             <p class="book-input">2B lot 4 Brgy Cogon, Ormoc City</p>
-
-                             <p class="book-label">Instruction for service provider</p>
-                             <p class="book-input">Please be on time..</p>                      
-                     </div>
-                     <div class="card-footer row mx-0"> 
-                     <button type="button" class="col btn p-3 bg-secondary btn-block mr-2" disabled>Processing Booking</button>
-                     <button type="button" class="col btn btn-danger p-3 btn-block m-0">Cancel Booking</button>
-                    </div>
-                 </div> 
-                 
-                   <!-- Fetch booking data 2 -->
-                   <div class="card col-sm bg-light p-0 shadow-none">
-                     <div class="card-body">
-                             <p class="book-label">Invoice ID</p>
-                             <p class="book-input">00002302</p>
-
-                             <p class="book-label">Service Provider Name</p>
-                             <p class="book-input">Grace Almendra</p>
-
-                             <p class="book-label">Service Type</p>
-                             <p class="book-input">Manicure and Pedicure</p>
-
-                             <p class="book-label">Charged Rate</p>
-                             <p class="book-input">Php 120</p>
-
-                             <p class="book-label">Date</p>
-                             <p class="book-input">January 7, 2020</p>
-
-                             <p class="book-label">Time of Arrival</p>
-                             <p class="book-input">02:00 PM</p>
-
-                             <p class="book-label">Service Address</p>
-                             <p class="book-input">Brgy Linao, Ormoc City</p>
-
-                             <p class="book-label">Instruction for service provider</p>
-                             <p class="book-input">Please be on time..</p>                      
-                     </div>
-                     <div class="card-footer row mx-0"> 
-                     <button type="button" class="col btn p-3 btn-primary btn-block mr-2" disabled>Confirm Booking</button>
-                     <button type="button" class="col btn btn-danger p-3 btn-block m-0">Cancel Booking</button>
-                    </div>
-                   </div> 
-
-                  <!-- Fetch booking data 3 -->
+                  <!-- Fetch completed booking -->
 
                    <div class="card col-sm bg-light p-0 shadow-none">
                      <div class="card-body">
@@ -231,45 +164,12 @@
                              <p class="book-input">Please be on time..</p>                      
                      </div>
                      <div class="card-footer row mx-0"> 
-                        <button type="button" class="col btn p-3 bg-secondary btn-block mr-2" disabled>Processing Booking</button>
-                        <button type="button" class="col btn btn-danger p-3 btn-block m-0">Cancel Booking</button>
+                     <button type="button" class="col btn p-3 btn-success btn-block mr-2" disabled>Paid</button>
+
                     </div>
                    </div>         
         </div>
-        <!--- 3rd Tab -->
-        <div class="tab-pane fade container" id="cancelled">
-            
-                <div class="card col-sm bg-light p-0 shadow-none">
-                     <div class="card-body">
-                             <p class="book-label">Invoice ID</p>
-                             <p class="book-input">00002301</p>
-
-                             <p class="book-label">Service Provider Name</p>
-                             <p class="book-input">Jimboy Tampus</p>
-
-                             <p class="book-label">Service Type</p>
-                             <p class="book-input">Mens Haircut</p>
-
-                             <p class="book-label">Charged Rate</p>
-                             <p class="book-input">Php 120</p>
-
-                             <p class="book-label">Date</p>
-                             <p class="book-input">January 10, 2021</p>
-
-                             <p class="book-label">Time of Arrival</p>
-                             <p class="book-input">02:00 PM</p>
-
-                             <p class="book-label">Service Address</p>
-                             <p class="book-input">Brgy Linao, Ormoc City</p>
-
-                             <p class="book-label">Instruction for service provider</p>
-                             <p class="book-input">Please be on time..</p>                      
-                     </div>
-                     <div class="card-footer row mx-0"> 
-                        <button type="button" class="col btn btn-dark p-3 btn-block m-0" disabled>Cancelled Booking</button>
-                    </div>
-                   </div>         
-        </div>
+     
     </div>
 </div>
     

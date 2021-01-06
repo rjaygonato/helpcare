@@ -40,12 +40,6 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="home.php" class="nav-link">Home /</a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="sub_category.php" class="nav-link">Salont At Home/</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="selected_sub_service.php" class="nav-link">Manicure and Pedicure</a>
-      </li>
     </ul>
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">

@@ -23,4 +23,3 @@ $('#addBooking').on('show.bs.modal', function (event) {
         });
     });
 </script>
-

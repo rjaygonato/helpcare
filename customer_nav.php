@@ -45,13 +45,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="customer_termsandcondition.php" class="nav-link">
             <i class="nav-icon fas fa-people-arrows"></i>
               <p>Terms and Condition</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="customer_service_history.php" class="nav-link">
             <i class="nav-icon fas fa-history"></i>
               <p>Service History</p>
             </a>
