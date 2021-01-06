@@ -45,69 +45,111 @@
       <div class="container-fluid">
         <div class="row">
           <div class="container col-md col-lg-6">
-            <form  enctype="multipart/form-data" method="post" class="p-5 bg-white reg-form-pos">
-
+            <form action="register_add.php" enctype="multipart/form-data" method="post" class="p-5 bg-white reg-form-pos">
+            <?php
+                if(isset($_SESSION['error'])){
+                  echo "
+                    <div class='callout callout-danger text-center'>
+                      <p>".$_SESSION['error']."</p> 
+                    </div>
+                  ";
+                  unset($_SESSION['error']);
+                }
+                if(isset($_SESSION['success'])){
+                  echo "
+                    <div class='callout callout-success text-center'>
+                      <p>".$_SESSION['success']."</p> 
+                    </div>
+                  ";
+                  unset($_SESSION['success']);
+                }
+              ?>
               <div class="row form-group">
                 <div class="col-md-6">
-                  <label for="name">Your First Name *</label>
-                  <input type="text" id="fname" name="first" class="form-control" placeholder="Enter your name">
+                  <label for="name">First Name *</label>
+                  <input type="text" id="" name="firstname" class="form-control" placeholder="" required>
                 </div>
                 <div class="col-md-6">
-                  <label for="name">Your Last Name *</label>
-                  <input type="text" id="lname" name="last" class="form-control" placeholder="Enter your last name">
+                  <label for="name">Last Name *</label>
+                  <input type="text" id="" name="lastname" class="form-control" placeholder="" required>
                 </div>
               </div>
 
       			  <div class="row form-group">
                 <div class="col-md-12">
                   <label for="phone">Phone Number *</label>
-                  <input type="tel" id="phone" name="phone" class="form-control" placeholder="+63" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                  <input type="tel" id="" name="contact_info" class="form-control" placeholder=""  required>
                 </div>
               </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
                   <label for="email">Email Address *</label>
-                  <input type="email" id="email" name="email" class="form-control" placeholder="example@gmail.com">
+                  <input type="email" id="" name="email" class="form-control" placeholder="" required>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label for="email">Date of Birth *</label>
+                  <input type="date" id="" name="birthday" class="form-control" placeholder="" required>
                 </div>
               </div>
 
               <div class="row form-group">
                 <div class="col-md-6">
+                  <label for="password">Age</label>
+                  <input type="password" id="" name="age" class="form-control" placeholder="" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="c_password">Username</label>
+                  <input type="password" id="" name="email" class="form-control" placeholder="" required>
+                </div>
+              </div> 
+
+              <div class="row form-group">
+                <div class="col-md-6">
                   <label for="password">Password *</label>
-                  <input type="password" id="password" name="password" class="form-control" placeholder="Password">
+                  <input type="password" id="" name="password" class="form-control" placeholder="" required>
                 </div>
                 <div class="col-md-6">
                   <label for="c_password">Confirm Password *</label>
-                  <input type="password" id="password" name="c_password" class="form-control" placeholder="Password">
+                  <input type="password" id="" name="repassword" class="form-control" placeholder="" required>
                 </div>
               </div> 
             
               <div class="row form-group">
                 <div class="col-md-12">
                   <label for="email">Date of Birth *</label>
-                  <input type="date" id="birthday" name="birth" class="form-control" placeholder="birthday">
+                  <input type="date" id="" name="birthday" class="form-control" placeholder="" required>
                 </div>
               </div>
+
+              <!-- <div class="row form-group">
+                <div class="col-md-12">
+                  <label for="email">Age</label>
+                  <input type="text" id="birthday" name="age" class="form-control" placeholder="age" required>
+                </div>
+              </div> -->
 
 		      	 <div class="row form-group">
                 <div class="col-md-6">
-                  <label for="address">Current Ormoc City Location (Delivery Address) *</label>
-                  <input type="text" name="address" id="address" class="form-control" placeholder="Street Address">
+                  <label for="address">Present Address *</label>
+                  <input type="text" name="address" id="" class="form-control" placeholder="" required>
                 </div>
                 <div class="col-md-6">
-                  <label for="address">LandMark Near You</label>
-                  <input type="text" name="address" id="address" class="form-control" placeholder="LandMark">
+                  <label for="address">Landmark Near You</label>
+                  <input type="text" name="landmark" id="" class="form-control" placeholder="" required>
                 </div>
               </div>
            
-
+<!-- 
               <div class="row form-group">
                   <div class="col-md-12">
                     <label for="email">Upload Your Profile Picture</label>
                     <input type="file"  name="picture" class="form-control" >
                   </div>
-              </div>
+              </div> -->
 
               <div class="row form-group">
               <input type="checkbox" class="form-check-input" id="terms_condition">

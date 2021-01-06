@@ -2,10 +2,9 @@
 	
 	include 'includes/session.php';
 
-	if(isset($_POST['signup'])){
+	if(isset($_POST['registration'])){
 
 		$firstname = $_POST['firstname'];
-		$middlename = $_POST['middlename'];
 		$lastname = $_POST['lastname'];
 		$age = $_POST['age'];
 		$email = $_POST['email'];
@@ -13,6 +12,8 @@
 		$repassword = $_POST['repassword'];
 		$birthday = $_POST['birthday'];
 		$address = $_POST['address'];
+		$landmark = $_POST['landmark'];
+		$contact_info = $_POST['contact_info'];
 
 		$_SESSION['firstname'] = $firstname;
 		$_SESSION['lastname'] = $lastname;
@@ -20,14 +21,14 @@
 
 		if ( $age < 18 ) {
 			$_SESSION['error'] = '18 years old below are not allowed to register';
-			header('location: register.php');
+			header('location: user_register.php');
 			return;
 		}
 
 
 		if($password != $repassword){
 			$_SESSION['error'] = 'Passwords did not match';
-			header('location: register.php');
+			header('location: user_register.php');
 		}
 		else{
 			$conn = $pdo->open();
@@ -37,7 +38,7 @@
 			$row = $stmt->fetch();
 			if($row['numrows'] > 0){
 				$_SESSION['error'] = 'Email already taken';
-				header('location: register.php');
+				header('location: user_register.php');
 			}
 			else{
 				$now = date('Y-m-d');
@@ -48,14 +49,14 @@
 				$code=substr(str_shuffle($set), 0, 12);
 
 				try{
-					$stmt = $conn->prepare("INSERT INTO users (email, age, password, firstname, middlename, lastname, birthday, address, activate_code, created_on) VALUES (:email, :age, :password, :firstname, :middlename, :lastname, :birthday, :address, :code, :now)");
-					$stmt->execute(['email'=>$email, 'age'=>$age, 'password'=>$password, 'firstname'=>$firstname, 'middlename'=>$middlename, 'lastname'=>$lastname, 'birthday'=>$birthday, 'address'=>$address, 'code'=>$code, 'now'=>$now]);
+					$stmt = $conn->prepare("INSERT INTO users (firstname, lastname, email, age, password, birthday, address, landmark, activate_code, contact_info, created_on) VALUES (:firstname, :lastname, :email, :age, :password, :birthday, :address, :landmark, :code, :contact_info, :now)");
+					$stmt->execute(['firstname'=>$firstname, 'lastname'=>$lastname, 'email'=>$email, 'age'=>$age, 'password'=>$password, 'birthday'=>$birthday, 'address'=>$address, 'landmark'=>$landmark, 'status'=>1, 'activate_code'=>$code, 'contact_info'=>$contact_info, 'created_on'=>$now]);
 				//	$userid = $conn->lastInsertId();
 
 				}
 				catch(PDOException $e){
 					$_SESSION['error'] = $e->getMessage();
-					header('location: register.php');
+					header('location: user_register.php');
 				}
 				$pdo->close();
 			}
