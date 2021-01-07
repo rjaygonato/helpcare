@@ -79,8 +79,9 @@ a {
   .btn.btn-sm {
     font-size: 0.9rem; }
   .btn:hover {
-    -webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
-    box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important; }
+    /* -webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important; */
+    /* box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important; */
+    }
   .btn.pill {
     border-radius: 30px; }
   .btn.btn-white.btn-outline-white {
